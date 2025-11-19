@@ -1,5 +1,5 @@
-# Software_Developement_for_Data_Analysis
-Hierarchical Agglomerative Clustering (HAC) Analysis on the UCI Wine Dataset
+# Software_Developement_for_Data_Analysis Project
+Hierarchical Agglomerative Clustering (HAC) Analysis on the UCI Wine Dataset Project
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.9+-informational)](https://www.python.org/downloads/)
