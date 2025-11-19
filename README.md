@@ -5,7 +5,7 @@ Hierarchical Agglomerative Clustering (HAC) Analysis on the UCI Wine Dataset
 [![Python](https://img.shields.io/badge/Python-3.9+-informational)](https://www.python.org/downloads/)
 
 This repository contains an academic, reproducible project completed for the **Software Developement for Data Analysis** course.  
-It demonstrates an end-to-end **unsupervised learning** workflow-data cleaning, dimensionality reduction (PCA), **hierarchical agglomerative clustering (HAC)**, cluster quality evaluation (silhouette score), and visualization (dendrograms, scatter plots, histograms)-using the classic **UCI Wine** dataset.
+It demonstrates an end-to-end **unsupervised learning** workflow-data cleaning, dimensionality reduction Principal Component Analysis (PCA), **Hierarchical Agglomerative Clustering (HAC)**, cluster quality evaluation (silhouette score), and visualization (dendrograms, scatter plots, histograms)-using the classic **UCI Wine** dataset.
 
 ## Repository Structure
 
@@ -16,7 +16,7 @@ sdad-clustering-wine/
 |   |-- functii.py         # Data cleaning and helper functions
 |   |-- grafice.py         # Visualization utilities (dendrogram, silhouette, histograms)
 |-- data/
-|   |-- wine.csv           # UCI Wine dataset (tabular)
+|   |-- wine.csv           # UCI Wine dataset (raw data)
 |-- docs/
 |   |-- Course-Requirements.pdf
 |   |-- Project-Report.docx
@@ -30,9 +30,9 @@ sdad-clustering-wine/
 
 ### Clustering Approach
 
-**Category:** Hierarchical Clustering (Unsupervised Learning)
+**Category:** Hierarchical Cluster Analysis (HCA) Unsupervised Learning
 
-**Algorithm:** Agglomerative Hierarchical Clustering
+**Algorithm:** Hierarchical Agglomerative Clustering (HAC)
 
 **Linkage Method:** Ward's method - minimizes the variance within clusters, providing compact and well-separated groups.
 
@@ -77,12 +77,7 @@ sdad-clustering-wine/
 
 ## Results & Discussion
 
-The report in `docs/Project-Report.docx` includes interpretation of the clusters, silhouette analysis, and how PCA components separate wine classes. For a hiring manager, focus on:
-
-- **Code quality & structure** (clear modules, docstrings, typing where applicable)
-- **Reproducibility** (locked deps, one-command run)
-- **Communication** (README, report, and diagrams)
-
+The report in `docs/Proiect DSAD Tema 3.docx` includes interpretation of the clusters, silhouette analysis, and how PCA components separate wine classes. 
 ## Dataset
 
 This project uses the **Wine** dataset (donated 1991-06-30), available from:
@@ -93,7 +88,7 @@ This project uses the **Wine** dataset (donated 1991-06-30), available from:
 **Creators:** Stefan Aeberhard, M. Forina
 
 **Citation (IEEE):**  
-S. Aeberhard and M. Forina. "Wine," UCI Machine Learning Repository, 1992. [Online]. Available: <https://doi.org/10.24432/C5PC7J>
+S. Aeberhard and M. Forina. "Wine," UCI Machine Learning Repository, 1991. [Online]. Available: <https://doi.org/10.24432/C5PC7J>
 
 **DOI:** [10.24432/C5PC7J](https://doi.org/10.24432/C5PC7J)
 
