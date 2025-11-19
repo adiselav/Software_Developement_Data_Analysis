@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it as below."
+title: "DSAD-Cluster-Analysis-Wine-Dataset"
+authors:
+  - family-names: "Selavardeanu"
+    given-names: "Adrian"
+  - family-names: "Stanciu"
+    given-names: "Andrei-Cristian"
+date-released: "2025-11-19"
+version: "1.0.0"
+url: "https://github.com/adiselav/sdad-clustering-wine"
+references:
+  - type: dataset
+    title: "Wine"
+    authors:
+      - family-names: "Aeberhard"
+        given-names: "Stefan"
+      - family-names: "Forina"
+        given-names: "Michele"
+    year: 1991
+    doi: "10.24432/C5PC7J"
+    url: "https://archive.ics.uci.edu/dataset/109/wine"
+    
