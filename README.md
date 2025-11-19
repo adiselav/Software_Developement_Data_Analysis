@@ -6,7 +6,7 @@ Hierarchical Agglomerative Clustering (HAC) Analysis on the UCI Wine Dataset
 [![Python](https://img.shields.io/badge/Python-3.9+-informational)](https://www.python.org/downloads/)
 
 This repository contains an academic, reproducible project completed for the **Software Developement for Data Analysis** course.  
-It demonstrates an end-to-end **unsupervised learning** workflo-data cleaning, dimensionality reduction (PCA), **agglomerative hierarchical clustering**, cluster quality evaluation (silhouette score), and visualization (dendrograms, scatter plots, histograms)-using the classic **UCI Wine** dataset.
+It demonstrates an end-to-end **unsupervised learning** workflow-data cleaning, dimensionality reduction (PCA), **agglomerative hierarchical clustering**, cluster quality evaluation (silhouette score), and visualization (dendrograms, scatter plots, histograms)-using the classic **UCI Wine** dataset.
 
 ## Highlights (Data Engineering - Data Analysis)
 
